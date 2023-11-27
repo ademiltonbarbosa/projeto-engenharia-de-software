@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Tarefas</h1>
+
+    </header>
+
+    <main>
+        
+        <input id="infoInput" type="text" placeholder="Tarefa...">
+        <button onclick="adicionarLinha()" id="btn-add">Adicionar</button>
+        <button id="btn-porc" onclick="mostrarQuantidadeFundoVerde()" >Porcentagem</button>
+        
+        
+        <div>
+            <table id="minhaTabela" border="1" >
+                <thead>
+                    <tr>
+                        <th>Tarefas</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+    <script src="./js/main.js"></script>  
+</body>
+</html>
